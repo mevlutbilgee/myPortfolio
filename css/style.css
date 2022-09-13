@@ -8,12 +8,7 @@
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(
-      to right,
-      rgba(39, 39, 39, 0.9),
-      rgba(39, 39, 39, 0.3)
-    ),
-    url(/img/banner.jpg);
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/banner.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -25,7 +20,7 @@
 }
 .about-bgImg-container .about__bio-image h2 {
   font-size: 3rem;
-  color: rgb(190, 17, 17);
+  color: rgb(191, 17, 17);
 }
 .about-bgImg-container .about__bio-image p {
   font-size: 1.2rem;
@@ -40,7 +35,7 @@
   margin: 1rem;
   background: #414141;
   padding: 1rem;
-  border-bottom: 5px solid rgb(190, 17, 17);
+  border-bottom: 5px solid rgb(191, 17, 17);
 }
 .about .about__job h2,
 .about .about__job h3 {
@@ -53,12 +48,7 @@
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(
-      to right,
-      rgba(39, 39, 39, 0.9),
-      rgba(39, 39, 39, 0.3)
-    ),
-    url(/img/banner.jpg);
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/banner.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -88,18 +78,13 @@
   font-size: 1.5rem;
 }
 .contact .text-secondary {
-  color: rgb(190, 17, 17);
+  color: rgb(191, 17, 17);
 }
 
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(
-      to right,
-      rgba(39, 39, 39, 0.9),
-      rgba(39, 39, 39, 0.3)
-    ),
-    url(/img/banner.jpg);
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/banner.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -125,12 +110,7 @@
 .project-bgImg-container {
   height: 40vh;
   width: 100%;
-  background: linear-gradient(
-      to right,
-      rgba(39, 39, 39, 0.9),
-      rgba(39, 39, 39, 0.3)
-    ),
-    url(/img/banner.jpg);
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/banner.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -153,7 +133,7 @@
 .projects__item {
   width: 100%;
   cursor: pointer;
-  border-bottom: 5px solid rgb(190, 17, 17);
+  border-bottom: 5px solid rgb(191, 17, 17);
   position: relative;
 }
 .projects__item img {
@@ -164,10 +144,7 @@
   opacity: 0.7;
 }
 
-.link-style a,
-footer.middle a,
-footer.vertical .social-icons a,
-footer.horizontal a {
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
@@ -249,7 +226,7 @@ footer.middle {
   color: blue;
 }
 .nav__link--active {
-  color: rgb(190, 17, 17);
+  color: rgb(191, 17, 17);
 }
 
 @media screen and (min-width: 0px) {
